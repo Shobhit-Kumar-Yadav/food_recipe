@@ -8,7 +8,7 @@ export default function Navbar() {
 
   return (
     <nav className="flex justify-between items-center py-8 container mx-auto flex-col lg:flex-row gap-5 lg:gap-0">
-      <h2 className="text-2xl font-semibold">FoodRecipe</h2>
+      <h2 className="text-3xl font-semibold  hover:text-pink-700 cursor-pointer">Food Recipe</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
